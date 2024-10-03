@@ -104,3 +104,5 @@ uv run slither . ran
 ![](./gfx/r2.png)
 
 # Methods
+
+Refer to [`this`](./methods/README.MD)
