@@ -1,7 +1,6 @@
 <a href="https://github.com/xyizko/xo-Investigations" target=_blank>
 <img src="./gfx/b.png" align="center">
 </a>
----
 
 <h1 align="center"><code>xo-i-euvs</code></h1>
 <h2 align="center"><i>Comparing Execution with uv vs pip</i></h2>
