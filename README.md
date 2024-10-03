@@ -76,6 +76,8 @@ uv pip install slither-analyzer ran
 
 # `slither` Execution Times
 
+> Execution times were found to be slightly faster
+
 ## Methodology
 
 1. Initialize a new python project via `uv init`
