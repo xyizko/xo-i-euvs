@@ -1,4 +1,6 @@
 
+<p align="center"><a href="https://x.com/xyizko" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/xyizko/xo-tagz/refs/heads/main/gfx/i.png"></a></p>
+
 <p align="center">
 <a href="https://twitter.com/xyizko" target="_blank">
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxyizko%2Fxo-i-euvs&count_bg=%23467423&title_bg=%233A3636&icon=superuser.svg&icon_color=%23D2FF72&title=apes&edge_flat=false">
