@@ -117,7 +117,7 @@ uv run slither . ran
 
 ### Whisker Plot
 
-![](./gfx/r2.png)
+[![](./gfx/r2.png)](./methods/README.MD)
 
 # Demo
 
