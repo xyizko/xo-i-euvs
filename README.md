@@ -37,6 +37,9 @@ Execution times comparison of [`slither`](https://github.com/crytic/slither) wit
 
 ## Findings
 
+> [!IMPORTANT]
+> Timings are highly dependent on your environment and are unpredictable. But generally execution is fastaer with uv
+
 | Procedure        | Result                                                          |
 | ---------------- | --------------------------------------------------------------- |
 | Installation     | `uv` was `~60` times faster than with `pip`                     |
