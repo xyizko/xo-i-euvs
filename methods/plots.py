@@ -9,7 +9,7 @@
 
 """This program shows `hyperfine` benchmark results as a box and whisker plot.
 
-Original Scripts Source 
+Original Scripts Source
 https://github.com/sharkdp/hyperfine/blob/master/scripts/plot_whisker.py
 
 Quoting from the matplotlib documentation:
@@ -22,6 +22,10 @@ import argparse
 import json
 
 import matplotlib.pyplot as plt
+from matplotlib import style
+
+# Set the dark mode style
+style.use('dark_background')
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("file", help="JSON file with benchmark results")
@@ -61,11 +65,13 @@ for patch, color in zip(boxplot["boxes"], colors):
     patch.set_facecolor(color)
 
 if args.title:
-    plt.title(args.title)
-plt.legend(handles=boxplot["boxes"], labels=labels, loc="best", fontsize="medium")
-plt.xlabel("Time [s]")
+    plt.title(args.title, color='white')
+plt.legend(handles=boxplot["boxes"], labels=labels, loc="best", fontsize="medium", facecolor='black', edgecolor='white')
+plt.xlabel("Time [s]", color='white')
 plt.xlim(0, None)
-plt.yticks(list(range(1, len(labels) + 1)), labels, rotation=45)
+plt.yticks(list(range(1, len(labels) + 1)), labels, rotation=45, color='white')
+plt.tick_params(axis='both', colors='white')
+
 if args.output:
     plt.savefig(args.output)
 else:

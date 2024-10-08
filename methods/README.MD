@@ -35,24 +35,33 @@ Memory: 4692MiB / 7929MiB
 
 ## Setup
 
-[Hyperfine](https://lib.rs/crates/hyperfine) is a command line bench marking tool written in rust.
+Install 
+1. [`rust`](https://www.rust-lang.org/tools/install)
+2. [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
+3. [`hyperfine`](https://lib.rs/install/hyperfine)
+
+```ml
+# Install Rust 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Install UV 
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install Hyperfine
+cargo install hyperfine 
+```
+
 
 ## Steps
 
-1. Ensure that [rust](https://www.rust-lang.org/tools/install) is installed - required by 'hyperfine'
+1. Download the three files into a directory 
 
-```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+> [!TIP]
+> Recommended to initialize a [`uv project`](https://docs.astral.sh/uv/concepts/projects/#applications) and then copy the three files from this dorectory 
+
+2. Run 
+```sh 
+bash  run_tests.sh
 ```
 
-2. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) - python package manager written in rust.
-
-```sh
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-3. Place the files in this directory in the target location where the `reports/` directory will be generated along with the actual reports.
-
-4. Add the commands that you want to compare in the first two lines of [`com.txt`](./com.txt)
-
-5. Execute [`run_tests.sh`](./run_tests.sh)
+3. Change the required commands to compare in [`com.txt`](./com.txt)
