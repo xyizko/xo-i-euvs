@@ -38,7 +38,7 @@ Execution times comparison of [`slither`](https://github.com/crytic/slither) wit
 ## Findings
 
 > [!IMPORTANT]
-> Timings are highly dependent on your environment and are unpredictable. But generally execution is fastaer with uv
+> Timings are highly dependent on your environment and are unpredictable. But generally execution is faster with uv
 
 | Procedure        | Result                                                          |
 | ---------------- | --------------------------------------------------------------- |
