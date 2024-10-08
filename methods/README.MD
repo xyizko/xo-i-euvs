@@ -57,7 +57,7 @@ cargo install hyperfine
 1. Download the three files into a directory 
 
 > [!TIP]
-> Recommended to initialize a [`uv project`](https://docs.astral.sh/uv/concepts/projects/#applications) and then copy the three files from this dorectory 
+> Recommended to initialize a [`uv project`](https://docs.astral.sh/uv/concepts/projects/#applications) and then copy the three files from this directory 
 
 2. Run 
 ```sh 
